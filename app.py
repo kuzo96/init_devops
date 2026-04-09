@@ -9,7 +9,7 @@ REQUEST_COUNT = Counter('app_requests_total', 'Total number of requests')
 @app.route('/')
 def hello():
     REQUEST_COUNT.inc()
-    return "Hello DevOps v5 🚀"
+    return "Hello DevOps v5.0 🚀"
 
 @app.route('/metrics')
 def metrics():
