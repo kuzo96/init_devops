@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: devops-app
-        image: kuzo96/devops-app:latest
+        image: kuzo96/devops-app:v1
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
